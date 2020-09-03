@@ -1,8 +1,9 @@
-package com.panli.factory.simple_factory_1.parser.impl;
+package com.panli.factory.simple_factory_1;
 
 import com.panli.factory.simple_factory_1.domain.RuleConfig;
 import com.panli.factory.simple_factory_1.exception.InvalidRuleConfigException;
 import com.panli.factory.simple_factory_1.parser.IRuleConfigParser;
+import com.panli.factory.simple_factory_1.parser.impl.RuleConfigParserFactory;
 
 /**
  * @author lipan

@@ -1,9 +1,13 @@
-package com.panli.factory.scene.demo.parser.impl;
+package com.panli.factory.scene.demo;
 
 
 import com.panli.factory.scene.demo.domain.RuleConfig;
 import com.panli.factory.scene.demo.exception.InvalidRuleConfigException;
 import com.panli.factory.scene.demo.parser.IRuleConfigParser;
+import com.panli.factory.scene.demo.parser.impl.JsonRuleConfigParser;
+import com.panli.factory.scene.demo.parser.impl.PropertiesRuleConfigParser;
+import com.panli.factory.scene.demo.parser.impl.XmlRuleConfigParser;
+import com.panli.factory.scene.demo.parser.impl.YamlRuleConfigParser;
 
 /**
  * @author lipan

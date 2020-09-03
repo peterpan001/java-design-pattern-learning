@@ -1,7 +1,8 @@
-package com.panli.factory.simple_factory_2.parser.impl;
+package com.panli.factory.simple_factory_2;
 
 import com.panli.factory.simple_factory_2.domain.RuleConfig;
 import com.panli.factory.simple_factory_2.parser.IRuleConfigParser;
+import com.panli.factory.simple_factory_2.parser.impl.RuleConfigParserFactory;
 
 /**
  * @author lipan

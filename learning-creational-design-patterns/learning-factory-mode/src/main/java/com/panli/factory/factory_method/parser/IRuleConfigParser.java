@@ -1,5 +1,6 @@
 package com.panli.factory.factory_method.parser;
 
+
 import com.panli.factory.factory_method.domain.RuleConfig;
 
 /**
