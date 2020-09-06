@@ -10,6 +10,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>learning-structural-design-patterns</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>learning-proxy-mode</module>
+        <module>learning-bridging-mode</module>
+        <module>learning-decorator-mode</module>
+        <module>learning-adapter-mode</module>
+        <module>learning-facade-mode</module>
+        <module>learning-combination-mode</module>
+        <module>learning-flyweight-mode</module>
+    </modules>
 
 
 </project>

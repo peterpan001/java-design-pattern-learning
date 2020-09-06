@@ -15,6 +15,7 @@
         <module>learning-singleton-mode</module>
         <module>learning-factory-mode</module>
         <module>learning-builder-mode</module>
+        <module>learning-prototype-mode</module>
     </modules>
     <dependencies>
         <dependency>

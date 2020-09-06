@@ -10,6 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>learning-behavioral-design-patterns</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>learning-observer-mode</module>
+        <module>learning-template-mode</module>
+        <module>learning-strategy-mode</module>
+        <module>learning-responsibility-chain-mode</module>
+        <module>learning-state-mode</module>
+        <module>learning-iterator-mode</module>
+        <module>learning-visitor-mode</module>
+        <module>learning-memorandum-mode</module>
+        <module>learning-command-mode</module>
+        <module>learning-interpreter-mode</module>
+        <module>learning-intermediary-mode</module>
+    </modules>
 
 
 </project>
