@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         ResourcePoolConfig config = new ResourcePoolConfig.Builder()
+                .setName("dbPoolConfig")
                 .setMaxTotal(16)
                 .setMaxIdle(8)
                 .setMinIdle(12)

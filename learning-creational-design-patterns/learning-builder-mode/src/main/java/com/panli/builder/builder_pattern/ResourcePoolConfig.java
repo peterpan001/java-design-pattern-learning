@@ -52,7 +52,7 @@ public class ResourcePoolConfig {
             if (StringUtils.isBlank(name)) {
                 throw new IllegalArgumentException("name should not be empty.");
             }
-            if (maxTotal > maxIdle) {
+            if (maxTotal < maxIdle) {
                 throw new IllegalArgumentException("maxIdle should be less than maxTotal.");
             }
             if (minIdle > maxTotal || minIdle > maxIdle) {
